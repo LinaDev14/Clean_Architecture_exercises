@@ -1,5 +1,6 @@
 package com.co.bancolombia.arquitectura.cleanArchitecture.application.service;
 
+import com.co.bancolombia.arquitectura.cleanArchitecture.domain.dto.UserDto;
 import com.co.bancolombia.arquitectura.cleanArchitecture.domain.entity.User;
 
 import java.util.List;
@@ -7,7 +8,7 @@ import java.util.Optional;
 
 public interface UserInterface {
 
-    List<User> getUsers();
+    List<UserDto> getUsers();
 
-    Optional<User> getUserById();
+    Optional<UserDto> getUserById(Long id);
 }
