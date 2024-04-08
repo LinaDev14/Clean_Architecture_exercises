@@ -2,6 +2,7 @@ package com.co.bancolombia.arquitectura.cleanArchitecture.domain.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.RequiredArgsConstructor;
 
 @Data
 @Entity
